@@ -35,6 +35,17 @@
 		"oAP": "/dist/css/main.css.map",
 		"oF": 0
 		},
+	"/dist/img/bg.jpg": {
+		"ft": 16384,
+		"iS": 188378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/img/logo.png": {
 		"ft": 32768,
 		"iS": 56404,
@@ -46,6 +57,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/img/pexels-photo-1266019.jpeg": {
+		"ft": 16384,
+		"iS": 442337,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/pexels-photo-1266019.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/pexels-photo-515674.jpeg": {
+		"ft": 16384,
+		"iS": 459583,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/pexels-photo-515674.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/img/sprite.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -55,6 +88,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/dist/img/workshop-3758513_960_720.jpg": {
+		"ft": 16384,
+		"iS": 163859,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/workshop-3758513_960_720.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/dist/index.html": {
 		"cB": 0,
