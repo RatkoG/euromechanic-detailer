@@ -90,7 +90,26 @@
     }
   }
 
+  &__services {
+
+
+    .list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+
+      &__item {
+        flex: 0 0 50%;
+      }
+    }
+  }
+
+  &__text {
+    font-size: 1.4rem;
+  }
+
   .copyright {
+    font-size: 1.2rem;
     text-align: center;
     padding: 1.5rem;
     background-color: saturate($color-footer, 15%);
