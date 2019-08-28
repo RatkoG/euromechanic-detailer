@@ -1,0 +1,54 @@
+// ** Base: contained within this file are all your resets, variables, mixins, and any utility classes.
+
+$color-primary:#3591FE;
+$color-secondary:#EBEE1D;
+$color-footer:#232a33;
+
+$shadow:0 0.1rem 0.6rem rgba(0, 0, 0, 0.4);
+
+$font-primary: 'Lato',
+sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $font-primary;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+
+.heading-2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 2.5rem auto;
+  text-align: center;
+}
+
+.heading-3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.text {
+  font-size: 1.8rem;
+  padding: 0 2.5rem;
+  text-align: center;
+}
