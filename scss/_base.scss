@@ -3,6 +3,7 @@
 $color-primary:#3591FE;
 $color-secondary:#EBEE1D;
 $color-footer:#232a33;
+$color-white:#FBFBFD;
 
 $shadow:0 0.1rem 0.6rem rgba(0, 0, 0, 0.4);
 
@@ -30,6 +31,31 @@ body {
   line-height: 1.7;
 }
 
+.heading-1 {
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 20rem;
+  left: 3rem;
+
+  &--main {
+    display: block;
+    font-size: 8rem;
+    font-weight: 900;
+    letter-spacing: .06rem;
+    line-height: 0.9;
+    margin-bottom: 4rem;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+
+  }
+}
 
 .heading-2 {
   text-transform: uppercase;

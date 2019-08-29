@@ -20,14 +20,15 @@
   }
 
   &__main {
-    background-color: red;
+    // background-color: red;
     height: 100%;
     display: flex;
   }
 
   &__description {
-    background-color: blueviolet;
+    // background-color: blueviolet;
     flex: 0 0 50%;
+    position: relative;
   }
 
   &__form {
