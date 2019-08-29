@@ -74,6 +74,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2.5rem 0;
+    text-align: center;
 
     &>* {
       width: 30%;
@@ -90,6 +91,12 @@
 
       &__item {
         flex: 0 0 50%;
+
+        &::before {
+          content: '\2014';
+          position: absolute;
+          margin-left: -20px;
+        }
       }
     }
   }
