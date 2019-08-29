@@ -107,6 +107,16 @@
 
   &__text {
     font-size: 1.4rem;
+
+    &--first {
+      width: 80%;
+      margin: auto;
+    }
+
+    &--second {
+      margin-left: auto;
+      width: 80%;
+    }
   }
 
   .copyright {
