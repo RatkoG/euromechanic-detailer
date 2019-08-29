@@ -14,6 +14,27 @@
   background-image: url(../img/bg.jpg);
   background-size: cover;
   background-position: top;
+
+  .container {
+    height: 100%;
+  }
+
+  &__main {
+    background-color: red;
+    height: 100%;
+    display: flex;
+  }
+
+  &__description {
+    background-color: blueviolet;
+    flex: 0 0 50%;
+  }
+
+  &__form {
+    background-color: olivedrab;
+    flex: 1;
+  }
+
 }
 
 // , url(img/bg.jpg)
