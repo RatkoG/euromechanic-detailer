@@ -88,14 +88,17 @@
       list-style: none;
       display: flex;
       flex-wrap: wrap;
+      // text-align: left;
 
       &__item {
         flex: 0 0 50%;
+        margin: auto;
 
         &::before {
           content: '\2014';
           position: absolute;
           margin-left: -20px;
+          color: $color-secondary;
         }
       }
     }
