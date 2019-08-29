@@ -42,9 +42,10 @@
 
 .info {
   .container {
-    color: white;
+    color: $color-white;
     display: flex;
     justify-content: space-around;
+    padding: 2.5rem 0;
   }
 
   background-color: $color-primary;
@@ -66,9 +67,19 @@
   }
 }
 
+.about {
+  &__wrapper {
+    display: flex;
+  }
+
+  &__text {
+    flex: 0 0 50%;
+  }
+}
+
 .footer {
   background-color: $color-footer;
-  color: white;
+  color: $color-white;
 
   &__info {
     display: flex;
@@ -88,11 +99,11 @@
       list-style: none;
       display: flex;
       flex-wrap: wrap;
-      // text-align: left;
+      text-align: left;
 
       &__item {
         flex: 0 0 50%;
-        margin: auto;
+
 
         &::before {
           content: '\2014';
@@ -106,6 +117,16 @@
 
   &__text {
     font-size: 1.4rem;
+
+    &--first {
+      width: 80%;
+      margin: auto;
+    }
+
+    &--second {
+      margin-left: auto;
+      width: 80%;
+    }
   }
 
   .copyright {
