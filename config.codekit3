@@ -2236,7 +2236,7 @@
 	"npmSaveExactVersion": 0,
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "dist/",
+	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
