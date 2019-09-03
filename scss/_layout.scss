@@ -100,6 +100,7 @@
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 3rem;
   align-items: start;
+  margin: 8rem 0;
 
   svg {
     width: 4.8rem;
@@ -115,6 +116,29 @@
 
   &__text {
     flex: 0 0 50%;
+  }
+
+  &__img {
+    &--1 {
+      .img-1 {
+        width: 55%;
+
+      }
+    }
+
+    &--2 {
+      .img-2 {
+        width: 55%;
+
+      }
+    }
+
+    &--3 {
+      .img-3 {
+        width: 55%;
+
+      }
+    }
   }
 }
 
