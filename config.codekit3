@@ -17,6 +17,24 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/dist/css/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/dist/css/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/css/main.css.map",
+		"oF": 0
+		},
 	"/dist/img/bg.jpg": {
 		"ft": 16384,
 		"iS": 188378,
@@ -34,14 +52,36 @@
 		"oA": 0,
 		"oAP": "/dist/img/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/dist/img/oil change.jpg": {
+		"ft": 16384,
+		"iS": 3354735,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/oil change.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/dist/img/pexels-photo-1266019.jpeg": {
 		"ft": 16384,
 		"iS": 442337,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/pexels-photo-1266019.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/dist/img/pexels-photo-1266019.jpg": {
+		"ft": 16384,
+		"iS": 441795,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/pexels-photo-1266019.jpg",
@@ -53,6 +93,17 @@
 	"/dist/img/pexels-photo-515674.jpeg": {
 		"ft": 16384,
 		"iS": 459583,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/pexels-photo-515674.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/dist/img/pexels-photo-515674.jpg": {
+		"ft": 16384,
+		"iS": 459041,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/pexels-photo-515674.jpg",
@@ -71,6 +122,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/dist/img/wheels.jpg": {
+		"ft": 16384,
+		"iS": 505540,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/wheels.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/dist/img/workshop-3758513_960_720.jpg": {
 		"ft": 16384,
 		"iS": 163859,
@@ -79,7 +141,7 @@
 		"oAP": "/dist/img/workshop-3758513_960_720.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/dist/index.html": {
@@ -98,6 +160,19 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/scss/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/_components.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -107,6 +182,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_components.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2192,7 +2280,7 @@
 	"npmSaveExactVersion": 0,
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "",
+	"previewPathAddition": "dist/",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
