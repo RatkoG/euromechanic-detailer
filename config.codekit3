@@ -46,6 +46,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/dist/img/engine.jpeg": {
+		"ft": 16384,
+		"iS": 459583,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/engine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/dist/img/logo.png": {
 		"ft": 32768,
 		"iS": 56404,
@@ -57,59 +68,26 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/dist/img/oil change.jpg": {
+	"/dist/img/oil-change.jpg": {
 		"ft": 16384,
 		"iS": 3354735,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/dist/img/oil change.jpg",
+		"oAP": "/dist/img/oil-change.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"/dist/img/pexels-photo-1266019.jpeg": {
+	"/dist/img/oil-check.jpeg": {
 		"ft": 16384,
 		"iS": 442337,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/dist/img/pexels-photo-1266019.jpg",
+		"oAP": "/dist/img/oil-check.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"/dist/img/pexels-photo-1266019.jpg": {
-		"ft": 16384,
-		"iS": 441795,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/pexels-photo-1266019.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/pexels-photo-515674.jpeg": {
-		"ft": 16384,
-		"iS": 459583,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/pexels-photo-515674.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/dist/img/pexels-photo-515674.jpg": {
-		"ft": 16384,
-		"iS": 459041,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/pexels-photo-515674.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/dist/img/sprite.svg": {
@@ -122,23 +100,23 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/dist/img/wheel-balance.jpg": {
+		"ft": 16384,
+		"iS": 163859,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/wheel-balance.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/dist/img/wheels.jpg": {
 		"ft": 16384,
 		"iS": 505540,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/wheels.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/dist/img/workshop-3758513_960_720.jpg": {
-		"ft": 16384,
-		"iS": 163859,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/workshop-3758513_960_720.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
