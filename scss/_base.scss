@@ -5,6 +5,7 @@ $color-primary:#0E5EBB;
 $color-secondary:#EBEE1D;
 $color-footer:#232a33;
 $color-white:#FBFBFD;
+$color-font:#2E343B;
 
 $shadow:0 0.1rem 0.6rem rgba(0, 0, 0, 0.4);
 
@@ -32,6 +33,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
+  color: $color-font;
 }
 
 .heading-1 {
