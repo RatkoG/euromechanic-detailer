@@ -26,13 +26,13 @@
   }
 
   &__description {
-    // background-color: blueviolet;
     flex: 0 0 50%;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   &__form {
-    // background-color: olivedrab;
     flex: 1;
     display: flex;
     align-items: center;

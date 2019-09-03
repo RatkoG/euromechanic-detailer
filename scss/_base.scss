@@ -39,10 +39,7 @@ body {
 .heading-1 {
   color: $color-white;
   text-transform: uppercase;
-  backface-visibility: hidden;
-  position: absolute;
-  top: 20rem;
-  left: 3rem;
+
 
   &--main {
     display: block;
