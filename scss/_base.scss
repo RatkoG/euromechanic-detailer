@@ -14,6 +14,12 @@ $font-primary: 'Lato',
 arial,
 sans-serif;
 
+$bp-large:75em; //1200px
+$bp-medium:56.25em; //900px
+$bp-small:31.25em; //500px;
+
+
+
 
 *,
 *::before,
@@ -25,6 +31,10 @@ sans-serif;
 
 html {
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -50,6 +60,11 @@ body {
     letter-spacing: .06rem;
     line-height: 0.9;
     margin-bottom: 4rem;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 4.5rem;
+      margin-bottom: 1rem;
+    }
   }
 
   &--sub {
@@ -58,6 +73,9 @@ body {
     font-weight: 700;
     letter-spacing: .06em;
 
+    @media only screen and (max-width: $bp-small) {
+      font-size: .5rem;
+    }
   }
 }
 

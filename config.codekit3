@@ -122,22 +122,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/dist/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/index.html",
-		"oF": 0
-		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 1,
-		"oA": 0,
-		"oAP": "/dist/index.html",
-		"oF": 2
-		},
 	"/scss/_base.scss": {
 		"aP": 0,
 		"bl": 0,

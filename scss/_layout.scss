@@ -2,11 +2,11 @@
 .container {
   max-width: 120rem;
   margin: 0 auto;
+
+  @media only screen and (max-width: $bp-large) {
+    margin: 0 2rem;
+  }
 }
-
-
-
-
 
 .hero {
   height: 85vh;
@@ -20,9 +20,12 @@
   }
 
   &__main {
-    // background-color: red;
     height: 100%;
     display: flex;
+
+    @media screen and (max-width: $bp-small) {
+      flex-direction: column;
+    }
   }
 
   &__description {
@@ -30,6 +33,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    @media screen and (max-width: $bp-small) {
+      // display: flex;
+      flex: 0 0 30%;
+      // flex-direction: column;
+      // justify-content: space-around;
+    }
   }
 
   &__form {
@@ -43,6 +53,11 @@
       background-color: rgba($color-primary, .8);
       border-radius: 2px;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.9);
+
+      @media screen and (max-width: $bp-small) {
+        width: 100%;
+        padding: 2rem;
+      }
 
       h3,
       h4 {
