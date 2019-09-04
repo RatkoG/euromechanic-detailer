@@ -82,6 +82,8 @@
 // , url(img/bg.jpg)
 
 .info {
+  background-color: $color-primary;
+
   .container {
     color: $color-white;
     display: flex;
@@ -89,7 +91,10 @@
     padding: 2.5rem 0;
   }
 
-  background-color: $color-primary;
+  &__email--link {
+    color: $color-secondary;
+    text-decoration: none;
+  }
 
 }
 
