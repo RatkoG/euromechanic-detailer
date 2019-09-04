@@ -36,7 +36,7 @@
 
     @media screen and (max-width: $bp-small) {
       // display: flex;
-      flex: 0 0 30%;
+      flex: 0 0 35%;
       // flex-direction: column;
       // justify-content: space-around;
     }
@@ -104,6 +104,13 @@
     display: flex;
     justify-content: space-around;
     padding: 2.5rem 0;
+
+    @media screen and (max-width: $bp-small) {
+      flex-direction: column;
+      align-items: center;
+
+    }
+
   }
 
   &__email--link {
@@ -132,12 +139,19 @@
 .about {
   &__wrapper {
     display: flex;
+
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+    }
   }
 
   &__text {
     flex: 0 0 50%;
     margin-right: 6rem;
 
+    @media only screen and (max-width: $bp-small) {
+      margin-right: 0;
+    }
   }
 
   &__img {
@@ -147,6 +161,10 @@
 
 .composition {
   position: relative;
+
+  @media only screen and (max-width: $bp-small) {
+    display: none;
+  }
 
   &__photo {
     width: 55%;
@@ -190,8 +208,22 @@
     padding: 2.5rem 0;
     text-align: center;
 
+    @media only screen and (max-width: $bp-small) {
+      padding: 2.5rem 0 0 0;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     &>* {
       width: 30%;
+
+      @media only screen and (max-width: $bp-small) {
+        width: 100%;
+        margin-bottom: 1.8rem;
+      }
     }
   }
 
