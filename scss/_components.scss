@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    // width: 100%;//!Ova mi smetache
     height: 100%;
 
     .logo {
@@ -18,7 +18,7 @@
     &__list {
       align-self: stretch;
       display: flex;
-      width: 35rem;
+      // width: 35rem;//!Ova smetase za avbaro
       align-items: center;
       // justify-content: space-around; //!Ova praese problem, izbrisi go ako se e vo red ko che zavrsis.
       list-style: none;
@@ -58,6 +58,19 @@
   }
 }
 
+.burger {
+  display: none;
+  overflow: hidden;
+
+  div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+
+  }
+}
+
 .btn {
   display: block;
   cursor: pointer;
@@ -84,3 +97,5 @@
 .paragraph:not(:last-of-type) {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: $bp-medium) {}
