@@ -149,15 +149,19 @@ body {
 @media screen and (max-width: 56.25em) {
   .burger {
     display: block; }
-  .navigation__list {
-    background-color: blueviolet;
-    position: absolute;
-    width: 100%;
-    top: 7rem;
-    left: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column; } }
+  .header .navigation__list {
+    display: none; }
+    .header .navigation__list.nav-active {
+      background-color: #FBFBFD;
+      position: absolute;
+      width: 100%;
+      top: 7rem;
+      left: 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      display: -webkit-box;
+      display: flex; } }
 
 .container {
   max-width: 120rem;

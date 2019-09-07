@@ -102,13 +102,29 @@
     display: block;
   }
 
-  .navigation__list {
-    background-color: blueviolet;
-    position: absolute;
-    width: 100%; //?Ova e sega full oti pocnuva od left 0/!Ova e oti navbari e vo header i ima padding/margin. 
-    // height: 0; //? Ova e background nema nisto
-    top: 7rem;
-    left: 0;
-    flex-direction: column;
+  .header {
+
+    .navigation {
+
+      &__list {
+        // visibility: hidden;
+        display: none;
+
+
+        &.nav-active {
+          // visibility: visible;
+          background-color: $color-white;
+          position: absolute;
+          width: 100%; //?Ova e sega full oti pocnuva od left 0/!Ova e oti navbari e vo header i ima padding/margin. 
+          // height: 0; //? Ova e background nema nisto
+          top: 7rem;
+          left: 0;
+          flex-direction: column;
+          display: flex;
+        }
+      }
+    }
+
   }
+
 }
