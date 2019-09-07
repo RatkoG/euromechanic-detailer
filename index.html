@@ -251,13 +251,31 @@
     const navSlide = () => {
       const burger = document.querySelector('.burger');
       const nav = document.querySelector('.navigation__list');
+      const link = document.querySelector('.navigation__item')
       burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
         console.log(burger);
       })
+      link.addEventListener('click', () => {
+        console.log('MENU!!!')
+      })
+
     }
 
     navSlide();
+
+    // const navMenu = document.querySelector('.navigation__list');
+
+    // function closeBtn(e) {
+    //   if (e.target.parentElement.classList.contains('navigation__item')) {
+    //     {
+    //       document.getElementById("nav-toggle").checked = false;
+    //     }
+    //   }
+    //   // console.log(e.target);
+    //   // console.log(e.target);// Ova e samo da vidime so naznacuvame
+    // }
+    // navMenu.addEventListener('click', closeBtn);
   </script>
 </body>
 
