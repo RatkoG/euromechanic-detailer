@@ -91,16 +91,15 @@ body {
             justify-content: space-between;
     -webkit-box-align: center;
             align-items: center;
-    height: 100%;
-    align-items: center; }
+    height: 100%; }
     .header .navigation .logo {
       height: 100%; }
     .header .navigation__list {
-      align-self: stretch;
       display: -webkit-box;
       display: flex;
       -webkit-box-align: center;
-              align-items: center;
+              align-items: center; }
+    .header .navigation__item {
       list-style: none; }
     .header .navigation__link:link, .header .navigation__link:visited {
       display: inline-block;
@@ -117,8 +116,7 @@ body {
         color: #0E5EBB; }
 
 .burger {
-  display: none;
-  overflow: hidden; }
+  display: none; }
   .burger div {
     width: 25px;
     height: 3px;
@@ -147,6 +145,19 @@ body {
 
 .paragraph:not(:last-of-type) {
   margin-bottom: 2rem; }
+
+@media screen and (max-width: 56.25em) {
+  .burger {
+    display: block; }
+  .navigation__list {
+    background-color: blueviolet;
+    position: absolute;
+    width: 100%;
+    top: 7rem;
+    left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column; } }
 
 .container {
   max-width: 120rem;
