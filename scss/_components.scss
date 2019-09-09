@@ -16,12 +16,11 @@
     }
 
     &__list {
-      align-self: stretch;
       display: flex;
       // width: 35rem;//!Ova smetase za avbaro
       align-items: center;
       // justify-content: space-around; //!Ova praese problem, izbrisi go ako se e vo red ko che zavrsis.
-      list-style: none;
+
 
 
 
@@ -31,9 +30,10 @@
       // }
     }
 
-    &__item {}
+    &__item {
+      list-style: none;
+    }
 
-    align-items: center;
 
     &__link {
 
@@ -60,7 +60,6 @@
 
 .burger {
   display: none;
-  overflow: hidden;
 
   div {
     width: 25px;
@@ -98,4 +97,34 @@
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: $bp-medium) {}
+@media screen and (max-width: $bp-small) {
+  .burger {
+    display: block;
+  }
+
+  .header {
+
+    .navigation {
+
+      &__list {
+        // visibility: hidden;
+        display: none;
+
+
+        &.nav-active {
+          // visibility: visible;
+          background-color: $color-white;
+          position: absolute;
+          width: 100%; //?Ova e sega full oti pocnuva od left 0/!Ova e oti navbari e vo header i ima padding/margin. 
+          // height: 0; //? Ova e background nema nisto
+          top: 7rem;
+          left: 0;
+          flex-direction: column;
+          display: flex;
+        }
+      }
+    }
+
+  }
+
+}

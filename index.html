@@ -303,5 +303,27 @@
       async
       defer
     ></script>
+    <script>
+      const navSlide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.navigation__list');
+        const link = document.querySelector('.navigation__link');
+        burger.addEventListener('click', () => {
+          nav.classList.toggle('nav-active');
+        });
+      };
+
+      navSlide();
+      const navMenu = document.querySelector('.navigation__list');
+
+      function closeBtn(e) {
+        if (
+          e.target.parentElement.parentElement.classList.contains('nav-active')
+        ) {
+          navMenu.classList.remove('nav-active');
+        }
+      }
+      navMenu.addEventListener('click', closeBtn);
+    </script>
   </body>
 </html>
