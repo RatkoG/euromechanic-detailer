@@ -248,8 +248,7 @@ body {
   background-color: #0E5EBB; }
   .info__call > p {
     text-align: right;
-    text-decoration: none;
-    color: red; }
+    text-decoration: none; }
   .info .container {
     color: #FBFBFD;
     display: -webkit-box;
@@ -262,7 +261,12 @@ body {
         -webkit-box-direction: normal;
                 flex-direction: column;
         -webkit-box-align: center;
-                align-items: center; } }
+                align-items: center;
+        text-align: center; }
+        .info .container h3 {
+          margin-bottom: 0; }
+        .info .container div:not(:first-child) > h3 {
+          margin-top: 1.8rem; } }
   .info__email--link {
     color: #FFDC00;
     text-decoration: none; }
