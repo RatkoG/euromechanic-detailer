@@ -217,8 +217,7 @@ body {
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.9); }
       @media screen and (max-width: 37.5em) {
         .hero__form #contact {
-          width: 100%;
-          padding: 2rem; } }
+          width: 100%; } }
       .hero__form #contact h3,
       .hero__form #contact h4 {
         color: #FBFBFD; }
@@ -247,6 +246,10 @@ body {
 
 .info {
   background-color: #0E5EBB; }
+  .info__call > p {
+    text-align: right;
+    text-decoration: none;
+    color: red; }
   .info .container {
     color: #FBFBFD;
     display: -webkit-box;

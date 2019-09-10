@@ -56,7 +56,6 @@
 
       @media screen and (max-width: $bp-small) {
         width: 100%;
-        padding: 2rem;
       }
 
       h3,
@@ -98,6 +97,12 @@
 
 .info {
   background-color: $color-primary;
+
+  &__call>p {
+    text-align: right;
+    text-decoration: none;
+    color: red;
+  }
 
   .container {
     color: $color-white;
