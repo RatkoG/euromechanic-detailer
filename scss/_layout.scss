@@ -98,9 +98,10 @@
 .info {
   background-color: $color-primary;
 
-  &__call>p {
+  &__call>a {
     text-align: right;
     text-decoration: none;
+    color: $color-white;
   }
 
   .container {

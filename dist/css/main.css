@@ -246,9 +246,10 @@ body {
 
 .info {
   background-color: #0E5EBB; }
-  .info__call > p {
+  .info__call > a {
     text-align: right;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #FBFBFD; }
   .info .container {
     color: #FBFBFD;
     display: -webkit-box;
