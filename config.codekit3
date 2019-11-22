@@ -90,6 +90,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/img/logo@2x.png": {
+		"ft": 32768,
+		"iS": 45212,
+		"oA": 0,
+		"oAP": "/dist/img/logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/img/oil-change.jpg": {
 		"ft": 16384,
 		"iS": 17408,
