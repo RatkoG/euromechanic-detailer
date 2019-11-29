@@ -37,13 +37,13 @@
 		},
 	"/dist/img/bg-small.jpg": {
 		"ft": 16384,
-		"iS": 128644,
+		"iS": 59845,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/bg-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/dist/img/bg.jpg": {
@@ -59,13 +59,13 @@
 		},
 	"/dist/img/engine.jpg": {
 		"ft": 16384,
-		"iS": 15272,
+		"iS": 14318,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/engine.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/dist/img/favicon.png": {
@@ -81,12 +81,12 @@
 		},
 	"/dist/img/logo.png": {
 		"ft": 32768,
-		"iS": 56404,
+		"iS": 2962,
 		"oA": 0,
 		"oAP": "/dist/img/logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -103,45 +103,35 @@
 		},
 	"/dist/img/oil-change.jpg": {
 		"ft": 16384,
-		"iS": 17408,
+		"iS": 16381,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/oil-change.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/dist/img/sprite.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/img/sprite.svg",
-		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"q": 100
 		},
 	"/dist/img/wheel-balance.jpg": {
 		"ft": 16384,
-		"iS": 163859,
+		"iS": 155134,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/wheel-balance.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/dist/img/wheels.jpg": {
 		"ft": 16384,
-		"iS": 505540,
+		"iS": 18488,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/wheels.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/dist/index.html": {
@@ -163,10 +153,10 @@
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"hM": 1,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/index.html",
-		"oF": 2
+		"oF": 3
 		},
 	"/scss/_base.scss": {
 		"aP": 0,
