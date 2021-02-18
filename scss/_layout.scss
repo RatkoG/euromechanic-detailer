@@ -154,6 +154,7 @@
 }
 
 .about {
+  margin-bottom: 8rem;
   &__wrapper {
     display: flex;
 
@@ -221,7 +222,7 @@
 
   &__info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2.5rem 0;
     text-align: center;
 
